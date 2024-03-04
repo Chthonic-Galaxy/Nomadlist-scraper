@@ -1,14 +1,17 @@
 # Nomadlist-scraper
 
+A Python project for asynchronous scraping of costs of living data from Nomad List.
+
 ## Purpose
 
 The `Nomadlist-scraper` aims to provide digital nomads, remote workers, and potential expats with cost of living information for cities around the world. It leverages asynchronous techniques for faster data collection compared to sequential scraping.
 
 ## Features
 
+* Asynchronous web scraping for enhanced speed.
 * Extracts costs of living categories from individual city pages on Nomad List.
-* Handles potential errors during web scraping.
-* Removes emojis from text data for cleaner output.
+* Handles potential network timeouts and HTML parsing errors. 
+* May optionally remove emojis from text data.
 * Reads a list of cities from a text file.
 * Saves the scraped data in JSON format for easy analysis.
 
@@ -18,6 +21,8 @@ The `Nomadlist-scraper` aims to provide digital nomads, remote workers, and pote
    *  Python 3.x
    *  `requests` 
    *  `beautifulsoup4`
+   *  `aiohttp`
+   *  `emoji`
 
    Install dependencies with `pip install -r requirements.txt`
 

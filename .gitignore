@@ -396,3 +396,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# virtual evironments
+.venv/
+.vscode/
+.colab/
+.ipynb_checkpoints/
+.idea/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.ipynb_checkpoints/
+.conda/
